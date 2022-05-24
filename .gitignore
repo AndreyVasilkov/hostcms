@@ -1,0 +1,13 @@
+/public_html/modules/core/config/database.php
+/public_html/counter/*
+/public_html/hostcmsfiles/*
+!/public_html/hostcmsfiles/xsl/
+!/public_html/hostcmsfiles/lib/
+!/public_html/hostcmsfiles/tpl/
+*.mp4
+*.webm
+node_modules
+/modules/shortcode/list.php
+private/
+/deploy/backups/
+!/deploy/backups/init.sql
