@@ -28,12 +28,23 @@
 	<body class="d-flex flex-column min-vh-100">
 		<div class="top-wrapper">
 			<div class="container">
-				<header class="header">
+                <nav id="menu-top">
+                    <a href="#">О компании</a>
+                    <a href="#">Вакансии</a>
+                    <a href="#">Контакты</a>
+                </nav>
+				<header class="header d-flex align-items-center justify-content-between">
 					<div class="logo">
 						<a href="/">
 							<img src="/templates/template1/assets/images/logo.png" alt="HostCMS" title="HostCMS" height="35">
 						</a>
 					</div>
+                    <nav id="menu-header">
+                        <a href="#">Новости</a>
+                        <a href="#">Медиа</a>
+                        <a href="#">Блог</a>
+                        <a href="#">Продукция</a>
+                    </nav>
 				</header>
 
 				<div class="main-content-wrapper">
@@ -98,8 +109,23 @@
 		<footer class="footer mt-auto">
 			<div class="footer-wrapper">
 				<div class="container">
-					<div><?php echo $this->_('footer1')?></div>
-					<div><?php echo $this->_('footer2')?></div>
+                    <nav id="menu-footer">
+                        <ul>
+                            <li>
+                                <a href="#">О компании</a>
+                                <a href="#">Новости</a>
+                                <a href="#">Вакансии</a>
+                            </li>
+                            <li>
+                                <a href="#">Медиа</a>
+                                <a href="#">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="#">Продукция</a>
+                                <a href="#">Блог</a>
+                            </li>
+                        </ul>
+                    </nav>
 				</div>
 			</div>
 		</footer>
